@@ -1,0 +1,160 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.tab{
+    margin: 0;
+    max-width: 1600px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content{
+    height: 950px;
+    background-image: url(../img/page-1_img01.jpg);
+    background-size: cover;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+}
+
+.content .tab {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    margin-top: 5px;
+    border: rgb(255, 254, 212) 5px solid;
+    text-align: center;
+    padding: 0 40px;
+}
+
+h1{
+    font-weight: bolder;
+    font-size: 450%;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 275%;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.logo h1 {
+    font-size: 200%;
+    margin-bottom: 20px;
+}
+
+.logo h2 {
+    font-size: 110%;
+}
+
+.bubles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1200px;
+    color: #fffed4;
+}
+
+.blob {
+    height: 155px;
+    width: 155px;
+    border-radius: 50%;
+    background-color: rgba(255, 254, 212, 0.18);
+}
+
+.content p {
+    font-size: 125%;
+}
+
+.sub{
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.sub input {
+    border: #7e857b 2px solid;
+    height: 60px;
+    width: 400px;
+    padding: 0 10px;
+    background-color: transparent;
+    color: #fff;
+    margin: 0%;
+    font-size: 130%;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: #fff;
+ }
+
+.sub button{
+    border: #7e857b 2px solid;
+    border-left: none;
+    height: 64px;
+    width: 160px;
+    margin: 0%;
+    background-color: rgba(255, 254, 212, 0.18);
+    color: #fff;
+    font-weight: bolder;
+}
+
+.info {
+    height: 600px;
+    background-image: url(../img/page-1_img02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+}
+
+.info .tab {
+    justify-content: space-evenly;
+}
+
+#yellow {
+    color: #fffed4;
+}
+
+.info p {
+    font-size: 140%;
+}
+
+.contact {
+    height: 800px;
+    background-color: #fffed4;
+}
+
+.contact .tab {
+    justify-content: space-evenly;
+}
+
+.topform {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.contact textarea {
+    resize: none;
+    width: 800px;
+    height: 150px;
+}
+
+.contact p {
+    text-align: center;
+}
