@@ -1,6 +1,7 @@
 body{
     margin: 0%;
     padding: 0%;
+    font-family: "Montserrat-ExtraBold", sans-serif;
 }
 
 .tab{
@@ -9,6 +10,7 @@ body{
     display: flex;
     flex-direction: column;
     height: 100%;
+    align-items: center;
 }
 
 section {
@@ -47,9 +49,13 @@ h1{
 
 h2 {
     font-size: 275%;
-    font-weight: lighter;
     margin-bottom: 20px;
     text-align: center;
+    font-weight: bolder;
+}
+
+.content h2 {
+    font-weight: 100;
 }
 
 .logo h1 {
@@ -67,6 +73,10 @@ h2 {
     justify-content: space-between;
     width: 1200px;
     color: #fffed4;
+}
+
+.bubles h2 {
+    font-weight: bolder;
 }
 
 .blob {
@@ -133,9 +143,20 @@ h2 {
     font-size: 140%;
 }
 
+.txt p {
+    margin-bottom: 60px;
+}
+
 .contact {
-    height: 800px;
+    height: 900px;
     background-color: #fffed4;
+    color: #475052;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .contact .tab {
@@ -146,15 +167,61 @@ h2 {
     width: 800px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 80px;
+    margin-bottom: 15px;
 }
 
 .contact textarea {
     resize: none;
-    width: 800px;
+    width: 776px;
     height: 150px;
+    font-size: 16pt;
+    border: rgba(71, 80, 82, 0.5) 2px solid;
+    background-color: transparent;
+    padding: 10px;
+    margin-bottom: 15px;
 }
 
 .contact p {
     text-align: center;
+}
+
+.contact input{
+    width: 220px;
+    height: 32pt;
+    background-color: transparent;
+    border: rgba(71, 80, 82, 0.5) 2px solid;
+    font-size: 16pt;
+    color: #000;
+    padding: 0 10px;
+}
+
+.contact ::-webkit-input-placeholder { /* WebKit browsers */
+    color: rgba(71, 80, 82, 0.65);
+}
+
+.contact button {
+    width: 800px;
+    height: 32pt;
+    background-color: #475052;
+    color: #fff;
+    border: none;
+    font-weight: bolder;
+}
+
+.links {
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links img {
+    height: 30px;
+    width: 30px;
+    opacity: 0.7;
+}
+
+@font-face {
+	font-family: Montserrat-ExtraBold;
+    src: url(fonts/Montserrat-ExtraBold.ttf) format("truetype"); 
+    font-weight: bolder;
 }
