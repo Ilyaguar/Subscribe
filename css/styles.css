@@ -260,7 +260,7 @@ input {
     }
 
     .tab {
-        max-width: 760px;
+        max-width: 720px;
     }
 
     .content{
@@ -311,13 +311,13 @@ input {
     .topform input {
         font-size: 24pt;
         padding-bottom: 60px;
-        width: 740px;
+        width: 700px;
         padding: 20px;
         border: 3px solid;
     }
 
     .contact textarea {
-        width: 740px;
+        width: 700px;
         border: 3px solid;
         font-size: 24pt;
         padding: 20px;
@@ -328,7 +328,7 @@ input {
     .contact button {
         height: 80px;
         font-size: 22pt;
-        width: 787px;
+        width: 747px;
     }
 
     .links {
