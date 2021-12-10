@@ -20,13 +20,14 @@ section {
 }
 
 .content{
-    height: 950px;
+    height: 1100px;
     background-image: url(../img/page-1_img01.jpg);
     background-size: cover;
     background-position-y: center;
     background-repeat: no-repeat;
     color: #fff;
     text-align: center;
+    zoom: 80%;
 }
 
 .content .tab {
@@ -35,7 +36,7 @@ section {
 }
 
 .logo{
-    margin-top: 5px;
+    margin-top: 10px;
     border: rgb(255, 254, 212) 5px solid;
     text-align: center;
     padding: 0 40px;
@@ -52,6 +53,11 @@ h2 {
     margin-bottom: 20px;
     text-align: center;
     font-weight: bolder;
+}
+
+input {
+    outline: 0;
+    outline-offset: 0;
 }
 
 .content h2 {
@@ -71,8 +77,10 @@ h2 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 1200px;
+    width: 75%;
     color: #fffed4;
+    list-style: none;
+    padding: 0;
 }
 
 .bubles h2 {
@@ -109,7 +117,7 @@ h2 {
 
 ::-webkit-input-placeholder { /* WebKit browsers */
     color: #fff;
- }
+}
 
 .sub button{
     border: #7e857b 2px solid;
@@ -179,6 +187,8 @@ h2 {
     background-color: transparent;
     padding: 10px;
     margin-bottom: 15px;
+    outline: 0;
+    outline-offset: 0;
 }
 
 .contact p {
@@ -224,4 +234,112 @@ h2 {
 	font-family: Montserrat-ExtraBold;
     src: url(fonts/Montserrat-ExtraBold.ttf) format("truetype"); 
     font-weight: bolder;
+}
+
+@media (max-width: 1080px) {
+    body{
+        zoom: 125%;
+    }
+
+    h1{
+        font-size: 72pt;
+    }
+
+    .logo {
+        zoom: 140%;
+    }
+
+    .blob{
+        height: 180px;
+        width: 180px;
+    }
+
+    .bubles p {
+        font-size: 24pt;
+        margin: 10px 0;
+    }
+
+    .tab {
+        max-width: 760px;
+    }
+
+    .content{
+        height: 1650px;
+        background-position-x: center;
+        padding: 40px 0;
+    }
+
+    .bubles {
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    .blob{
+        margin: 0 10%;
+        margin-bottom: 50px;
+    }
+
+    .sub{
+        zoom: 145%;
+    }
+
+    .sub button {
+        font-size: 14pt;
+    }
+
+    .info {
+        height: 1000px;
+    }
+
+    .info p {
+        font-size: 22pt;
+        font-weight: 100;
+        margin-bottom: 100px;
+    }
+
+    .contact {
+        height: 1600px;
+    }
+
+    .topform {
+        flex-direction: column;
+        align-items: center;
+        height: 320px;
+        padding-bottom: 40px;
+    }
+
+    .topform input {
+        font-size: 24pt;
+        padding-bottom: 60px;
+        width: 740px;
+        padding: 20px;
+        border: 3px solid;
+    }
+
+    .contact textarea {
+        width: 740px;
+        border: 3px solid;
+        font-size: 24pt;
+        padding: 20px;
+        height: 300px;
+        margin-bottom: 70px;
+    }
+
+    .contact button {
+        height: 80px;
+        font-size: 22pt;
+        width: 787px;
+    }
+
+    .links {
+        width: 500px;
+    }
+
+    .links img {
+        height: 60px;
+        width: 60px;
+    }
+    .contact p {
+        font-size: 16pt;
+    }
 }
